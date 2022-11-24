@@ -3,7 +3,7 @@
 @section('content')
     <section class="home py-5 d-flex align-items-center" id="header">
         <div class="container text-light py-5"> 
-            <h1 class="headline">Health <br/> <span class="home_text">Counselling System</h1>
+            <h1 class="headline">MentalCare <br/> <span class="home_text">System</h1>
             <h5 class="para para-light py-3">Talk to a Therapist from the comfort of your home</h5>
             <div class="d-flex align-items-center">
                 <p class="p-2"><i class="fas fa-laptop-house fa-lg"></i></p>
@@ -15,7 +15,7 @@
             </div>
             <div class="my-3 d-flex justify-content-start">
                 <a class="btn mx-3" href="register">Get Started</a>
-                <a class="btn-reverse mx-3" href="#">Why HCS?</a>
+                <a class="btn-reverse mx-3" href="#">Why MentalCare?</a>
             </div>
         </div>
     </section>
