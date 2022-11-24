@@ -2,7 +2,7 @@
     <div class="container">
 
     
-        <a class="navbar-brand logo-text" href="{{url('/')}}">HCS</a>
+        <a class="navbar-brand logo-text" href="{{url('/')}}">MentalCare</a>
 
         <button class="navbar-toggler p-0 border-0" onclick="showMenu()" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
