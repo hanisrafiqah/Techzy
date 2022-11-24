@@ -92,7 +92,7 @@
         <div class="bottom py-2 text-light" >
             <div class="container d-flex justify-content-between">
                 <div>
-                    <p>Copyright © Some name</p>
+                    <p>Copyright © MentalCare 2022</p>
                 </div>
                 <div>
                     <i class="fab fa-cc-visa fa-lg p-1"></i>
