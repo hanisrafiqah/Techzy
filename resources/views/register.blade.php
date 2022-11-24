@@ -6,8 +6,8 @@
         <div class="row d-flex justify-content-center my-5">
             <div class="col-lg-5 mt-5 border border-2 justify-content-lg-end align-items-center px-lg-5">
                     <div class="text-center py-4 mt-4 pt-lg-0">
-                        <p>Health Counselling System</p>
-                        <h4 class="pt-5">Sign Up for Health Counselling</h4>
+                        <p>MentalCare System</p>
+                        <h4 class="pt-5">Sign Up for Mental Health Counselling</h4>
                     </div>
                     <div>
                         <div class="form-group my-3 py-2">
