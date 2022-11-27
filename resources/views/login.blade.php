@@ -6,7 +6,7 @@
         <div class="row d-flex justify-content-center mt-5">
             <div class="col-lg-5 border border-2 mt-3 justify-content-lg-end align-items-center px-lg-5">
                     <div class="text-center py-4 mt-4 pt-lg-0">
-                        <p>Health Counselling System</p>
+                        <p>MentalCare System</p>
                         <h2 class="pt-5">Welcome Back</h2>
                     </div>
                     <div>
