@@ -97,11 +97,5 @@
                 <div>
                     <p>Copyright © MentalCare 2022</p>
                 </div>
-                <div>
-                    <i class="fab fa-cc-visa fa-lg p-1"></i>
-                    <i class="fab fa-cc-mastercard fa-lg p-1"></i>
-                    <i class="fab fa-cc-paypal fa-lg p-1"></i>
-                    <i class="fab fa-cc-amazon-pay fa-lg p-1"></i>
-                </div>
             </div> <!-- end of container -->
         </div> <!-- end of bottom -->
