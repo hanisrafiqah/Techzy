@@ -4,22 +4,22 @@
                 <div class="row">
                     <div class="col-lg-3 py-4 py-md-5">
                         <div class="d-flex align-items-center">
-                            <h4 class="">Name</h4>
+                            <h4 class="">MentalCare</h4>
                         </div>
-                        <p class="py-3 para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi repudiandae explicabo esse maxime, impedit rem voluptatibus amet error quas.</p>
+                        <p class="py-3 para-light">Mental health is not a destination, but a process. It's about how you drive, not where you're going.</p>
                         <div class="d-flex">
                             <div class="me-3">
-                                <a href="#your-link">
+                                <a href="#https://www.facebook.com/">
                                     <i class="fab fa-facebook-f fa-2x py-2"></i>
                                 </a>
                             </div>
                             <div class="me-3">
-                                <a href="#your-link">
+                                <a href="https://twitter.com/?lang=en-my">
                                     <i class="fab fa-twitter fa-2x py-2"></i>
                                 </a>
                             </div>
                             <div class="me-3">
-                                <a href="#your-link">
+                                <a href="#https://www.instagram.com/">
                                     <i class="fab fa-instagram fa-2x py-2"></i>
                                 </a>
                             </div>
@@ -50,32 +50,35 @@
 
                     <div class="col-lg-3 py-4 py-md-5">
                         <div>
-                            <h4 class="py-2">Useful Links</h4>
+                            <h4 class="py-2">Learn more</h4><!--Useful Links-->
                             <div class="d-flex align-items-center py-2">
                                 <i class="fas fa-caret-right"></i>
-                                <a href="privacy.html"><p class="ms-3">Privacy</p></a>
-                                
+                                <a href="https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961" target="_blank"><p class="ms-3">Anxiety</p></a>
+                                <!--privacy.html--><!--Privacy-->
                             </div>
                             <div class="d-flex align-items-center py-2">
                                 <i class="fas fa-caret-right"></i>
-                                <a href="terms.html"><p class="ms-3">Terms</p></a>
+                                <a href="https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007" target="_blank"><p class="ms-3">Depression</p></a>
+                                <!--Terms-->
                             </div>
                             <div class="d-flex align-items-center py-2">
                                 <i class="fas fa-caret-right"></i>
-                                <a href="#your-link"><p class="ms-3">Disclaimer</p></a>
+                                <a href="https://www.mayoclinic.org/diseases-conditions/bipolar-disorder/symptoms-causes/syc-20355955k" target="_blank"><p class="ms-3">Bipolar Disorder</p></a>
+                                <!--Disclaimer-->
                             </div>
                             <div class="d-flex align-items-center py-2">
                                 <i class="fas fa-caret-right"></i>
-                                <a href="#your-link"><p class="ms-3">FAQ</p></a>
+                                <a href="https://www.mayoclinic.org/diseases-conditions/eating-disorders/symptoms-causes/syc-20353603" target="_blank"><p class="ms-3">Eating Disorder</p></a>
+                                <!--FAQ-->
                             </div>
                         </div>
                     </div> <!-- end of col -->
 
                     <div class="col-lg-3 py-4 py-md-5">
                         <div class="d-flex align-items-center">
-                            <h4>Newsletter</h4>
+                            <h4>Inquiries</h4>
                         </div>
-                        <p class="py-3 para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ab.</p>
+                        <p class="py-3 para-light">If you have any inquiries, let us know by sending out email to us. </p>
                         <div class="d-flex align-items-center">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
