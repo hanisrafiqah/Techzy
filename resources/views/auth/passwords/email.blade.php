@@ -1,43 +1,107 @@
-@extends('layouts.app')
-
-@section('content')
-<section class="forms d-flex align-items-center">
-    <div class="container-fluid text-light">
-        <div class="row d-flex justify-content-center my-5">
-            <div class="col-lg-5 my-5 border border-2 justify-content-lg-end align-items-center px-lg-5">
-                    <div class="text-center py-4 mt-5 pt-lg-0">
-                        <p>Health Counselling System</p>
-                        <h4 class="pt-3">Reset Password</h4>
-                    </div>
-
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
+        <!-- Footer -->
+        <section class="footer text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 py-4 py-md-5">
+                        <div class="d-flex align-items-center">
+                            <h4 class="">MentalCare</h4>
                         </div>
-                    @endif
-
-                    <form method="POST" action="{{ route('password.email') }}">
-                        @csrf
-                        <div class="row mb-3">
-                            <div class="form-group my-1 py-2">
-                                <input id="email" type="email" class="form-control form-control-input @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="Enter Email to get password reset link" required autocomplete="email" autofocus>
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                        <p class="py-3 para-light">Mental health is not a destination, but a process. It's about how you drive, not where you're going.</p>
+                        <div class="d-flex">
+                            <div class="me-3">
+                                <a href="#https://www.facebook.com/">
+                                    <i class="fab fa-facebook-f fa-2x py-2"></i>
+                                </a>
+                            </div>
+                            <div class="me-3">
+                                <a href="https://twitter.com/?lang=en-my">
+                                    <i class="fab fa-twitter fa-2x py-2"></i>
+                                </a>
+                            </div>
+                            <div class="me-3">
+                                <a href="#https://www.instagram.com/">
+                                    <i class="fab fa-instagram fa-2x py-2"></i>
+                                </a>
                             </div>
                         </div>
+                    </div> <!-- end of col -->
 
-                        <div class="my-4">
-                            <button type="submit" class="btn mx-auto d-flex justify-content-center form-control-submit-button">
-                                {{ __('Reset Password') }}
-                            </button>     
+                    <div class="col-lg-3 py-4 py-md-5">
+                        <div>
+                            <h4 class="py-2">Quick Links</h4>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#about"><p class="ms-3">About</p></a>
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#"><p class="ms-3">Services</p></a>
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#"><p class="ms-3">Plans</p></a>
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="#"><p class="ms-3">Contact</p></a>
+                            </div>
                         </div>
-                    </form>                       
-                </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</section>
-@endsection
+                    </div> <!-- end of col -->
+
+                    <div class="col-lg-3 py-4 py-md-5">
+                        <div>
+                            <h4 class="py-2">Learn more</h4><!--Useful Links-->
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961" target="_blank"><p class="ms-3">Anxiety</p></a>
+                                <!--privacy.html--><!--Privacy-->
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007" target="_blank"><p class="ms-3">Depression</p></a>
+                                <!--Terms-->
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="https://www.mayoclinic.org/diseases-conditions/bipolar-disorder/symptoms-causes/syc-20355955k" target="_blank"><p class="ms-3">Bipolar Disorder</p></a>
+                                <!--Disclaimer-->
+                            </div>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fas fa-caret-right"></i>
+                                <a href="https://www.mayoclinic.org/diseases-conditions/eating-disorders/symptoms-causes/syc-20353603" target="_blank"><p class="ms-3">Eating Disorder</p></a>
+                                <!--FAQ-->
+                            </div>
+                        </div>
+                    </div> <!-- end of col -->
+
+                    <div class="col-lg-3 py-4 py-md-5">
+                        <div class="d-flex align-items-center">
+                            <h4>Inquiries</h4>
+                        </div>
+                        <p class="py-3 para-light">If you have any inquiries, let us know by sending out email to us. </p>
+                        <div class="d-flex align-items-center">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
+                                <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
+                            </div>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </section> <!-- end of footer -->
+
+
+        <!-- Bottom -->
+        <div class="bottom py-2 text-light" >
+            <div class="container d-flex justify-content-between">
+                <div>
+                    <p>Copyright © MentalCare 2022</p>
+                </div>
+                <div>
+                    <i class="fab fa-cc-visa fa-lg p-1"></i>
+                    <i class="fab fa-cc-mastercard fa-lg p-1"></i>
+                    <i class="fab fa-cc-paypal fa-lg p-1"></i>
+                    <i class="fab fa-cc-amazon-pay fa-lg p-1"></i>
+                </div>
+            </div> <!-- end of container -->
+        </div> <!-- end of bottom -->
