@@ -34,7 +34,14 @@ class HomeController extends Controller
         $unreadMessages = MessagesController::getCountOfUnreadMessages(Auth::user()->id);
         return view('home')->with('unreadMsg', $unreadMessages);
     }
-
+public function myappoinment(){
+        if(Auth::id()){
+           return view('my_appoinment');
+    } 
+    else{
+        return redirect()->back();
+    }
+        }
     public function adminIndex()
     {
         $allUsersCount = User::totalUsersCount();
