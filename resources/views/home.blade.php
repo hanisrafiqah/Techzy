@@ -34,6 +34,7 @@
                                 
                                 <button class="btn-inverse active mb-3" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
                                 <button class="btn-inverse" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                                                            <button class="btn-inverse" id="v-pills-appoinment-tab" data-bs-toggle="pill" data-bs-target="#v-pills-appoinment" type="button" role="tab" aria-controls="v-pills-appoinment" aria-selected="false"><a href="{{url('myappoinment')}}">Appoinment</a></button>
                                 {{-- <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button> --}}
                             </div>
                         </div>
